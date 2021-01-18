@@ -1,0 +1,56 @@
+[
+    {
+        "name": "CommunityConnect",
+        "imageSource": "../assets/videos/CommunityConnectDemo.gif",
+        "description": "CommunityConnect is an online app, connecting people who need help with volunteers in their community. Users can post tasks or requests on the site, to show they need help. Other users can then view the tasks available and accept them. Think Airtasker for volunteers...",
+        "languages": "HTML | CSS | Javascript | MySQL | NodeJS | Express",
+        "deployedProjectLink": "https://communityconnect-1.herokuapp.com/",
+        "codeLink": "https://github.com/Ninetta11/CommunityConnect.git",
+        "featured": true
+    },
+    {
+        "name": "Pinboard",
+        "imageSource": "../assets/videos/Student-view Demo.gif",
+        "description": "Pinboard is an online school bulletin board that displays year group specific information for students. Incorporates a message board on the student view. Administration access allows both school specific and class specific information to be updated dynamically.",
+        "languages": "HTML | CSS | Javascript | NoSQL",
+        "deployedProjectLink": "https://ninetta11.github.io/Pinboard/",
+        "codeLink": "https://github.com/Ninetta11/Pinboard.git",
+        "featured": false
+    },
+    {
+        "name": "Weather Dashboard",
+        "imageSource": "../assets/videos/Weather Dashboard Demo.gif",
+        "description": "A weather dashboard that displays the current weather conditions as well as a 5-day forecast. Includes the addition of saving searches for future quick retrieval.",
+        "languages": "",
+        "deployedProjectLink": "https://ninetta11.github.io/6-Weather-Dashboard/",
+        "codeLink": "https://github.com/Ninetta11/6-Weather-Dashboard.git",
+        "featured": false
+    },
+    {
+        "name": "",
+        "imageSource": "",
+        "description": "",
+        "languages": "",
+        "deployedProjectLink": "",
+        "codeLink": "",
+        "featured": false
+    },
+    {
+        "name": "",
+        "imageSource": "",
+        "description": "",
+        "languages": "",
+        "deployedProjectLink": "",
+        "codeLink": "",
+        "featured": false
+    },
+    {
+        "name": "",
+        "imageSource": "",
+        "description": "",
+        "languages": "",
+        "deployedProjectLink": "",
+        "codeLink": "",
+        "featured": false
+    }
+]

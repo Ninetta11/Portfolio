@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Portfolio",
+        "link": "portfolio",
+        "classState": "nav-link"
+    },
+    {
+        "name": "Achievements",
+        "link": "achievements",
+        "classState": "nav-link"
+    },
+    {
+        "name": "About",
+        "link": "about",
+        "classState": "nav-link"
+    },
+    {
+        "name": "Contact",
+        "link": "contact",
+        "classState": "nav-link"
+    }
+]
