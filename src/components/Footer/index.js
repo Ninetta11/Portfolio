@@ -51,6 +51,7 @@ class Footer extends Component {
                             href={detail.href}
                         />
                     ))}
+                    <br></br>
                 </ul>
             </footer >
         )

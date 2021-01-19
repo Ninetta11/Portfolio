@@ -1,9 +1,25 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import NavLinkHeader from '../NavLinkHeader';
-import pages from '../../data/pages.json';
 import './style.css';
 
+const pages = [
+    {
+        name: "Portfolio",
+        link: "portfolio",
+        classState: "nav-link"
+    },
+    {
+        name: "Achievements",
+        link: "achievements",
+        classState: "nav-link"
+    },
+    {
+        name: "About",
+        link: "about",
+        classState: "nav-link"
+    }
+]
 
 class Header extends Component {
 
@@ -13,14 +29,8 @@ class Header extends Component {
 
     setClass = (name) => {
         this.state.pages.map((page) => {
-            if (page.link === name) {
-                page.classState = "nav-link active";
-                this.setState({ pages });
-            }
-            else {
-                page.classState = "nav-link";
-                this.setState({ pages });
-            }
+            page.link === name ? page.classState = "nav-link active" : page.classState = "nav-link";
+            this.setState({ pages });
         })
     }
 
@@ -28,9 +38,17 @@ class Header extends Component {
         return (
             <header>
                 <nav className="navbar navbar-expand-lg fixed-top navbar-dark">
-                    <Link className="navbar-brand" id="home-link" to="/" >Nina Welsh</Link>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <Link
+                        className="navbar-brand"
+                        id="home-link"
+                        name="home"
+                        onClick={() => this.setClass(this.name)}
+                        to="/" >Nina Welsh
+                    </Link>
+                    <button className="navbar-toggler" type="button"
+                        data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">

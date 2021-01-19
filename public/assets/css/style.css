@@ -89,7 +89,6 @@ iframe {
     border-color: #3D5467;
     border-width: 0px 15px;
     padding: 50px;
-    margin-bottom: 30px;
 }
 
 #about {
@@ -101,21 +100,17 @@ iframe {
     margin-bottom: 35px;
 }
 
-#bio {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
 #contact {
     background-color: #E7ECEF;
 }
 
 #portfolio, 
 #achievements {
+    margin-left: 45px;
+    margin-right: 45px;
     border-style: solid;
     border-color: #EFCB68;
     border-width: 7px;
-    margin-bottom: 45px;
     padding: 25px 50px;
 }
 

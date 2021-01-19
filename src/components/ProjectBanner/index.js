@@ -9,18 +9,9 @@ class ProjectBanner extends Component {
     }
 
     setFeatureProject = (name) => {
-        console.log(name);
         this.state.projects.map((project) => {
-            if (project.name === name) {
-                project.featured = true;
-                console.log(project);
-                this.setState({ projects });
-            }
-            else {
-                project.featured = false;
-                console.log(project);
-                this.setState({ projects });
-            }
+            project.name === name ? project.featured = true : project.featured = false;
+            this.setState({ projects });
         })
     }
 

@@ -11,18 +11,9 @@ class Portfolio extends Component {
     }
 
     setFeatureProject = (name) => {
-        console.log(name);
         this.state.projects.map((project) => {
-            if (project.name === name) {
-                project.featured = true;
-                console.log(project);
-                this.setState({ projects });
-            }
-            else {
-                project.featured = false;
-                console.log(project);
-                this.setState({ projects });
-            }
+            project.name === name ? project.featured = true : project.featured = false;
+            this.setState({ projects });
         })
     }
 
@@ -42,7 +33,7 @@ class Portfolio extends Component {
                 <div className="row">
                     <h1>Portfolio</h1>
                 </div>
-                <div className="row row-cols-2 row-cols-lg-2">
+                <div className="row row-cols-1 row-cols-lg-2">
                     {this.useFeatured().map(project => (
                         <ProjectFeatured
                             projectName={project.name}
