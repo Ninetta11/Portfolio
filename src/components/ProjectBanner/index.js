@@ -25,6 +25,7 @@ class ProjectBanner extends Component {
                     {this.state.projects.map(project =>
                         <ProjectThumbnail
                             projectName={project.name}
+                            projectLanguages={project.languages}
                             imageSource={project.imageSource}
                             setFeatureProject={this.setFeatureProject}
                         />)}

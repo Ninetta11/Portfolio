@@ -1,24 +1,40 @@
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
-
-
-// function fadeIn() {
-//     onMouseEnter={() => fadeIn()}
-// }
-
+import Fade from 'react-reveal/Fade';
+import './style.css';
 
 
 function ProjectThumbnail({
     imageSource,
     projectName,
+    projectLanguages,
     setFeatureProject
 }) {
+    const [isShown, setIsShown] = useState(false);
+
     return (
         <div className="col mb-4">
-            <Link class="card bg-dark" onClick={() => setFeatureProject(projectName)} to="/portfolio">
-                <img src={imageSource} className="card-img-top"
-                    alt={projectName}></img>
-            </Link>
-        </div>
+            <div className="card bg-light h-100"
+                onMouseEnter={() => setIsShown(true)}
+                onMouseLeave={() => setIsShown(false)}
+                onClick={() => setFeatureProject(projectName)}
+                to="/portfolio">
+                {!isShown ?
+                    <img src={imageSource} className="card-img-top"
+                        alt={projectName}></img>
+                    : <Fade top>
+                        <div className="card-img-overlay text-center">
+                            <h3>{projectName}</h3>
+                            <h6>{projectLanguages}</h6>
+                            <button className="btn btn-outline-info"
+                            >
+                                <Link onClick={() => setFeatureProject(projectName)} to="/portfolio">Learn More</Link>
+                            </button>
+                        </div>
+                    </Fade>
+                }
+            </div>
+        </div >
     )
 };
 

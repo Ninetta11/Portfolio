@@ -1,6 +1,6 @@
 [
     {
-        "name": "CommunityConnect",
+        "name": "Community Connect",
         "imageSource": "../assets/videos/CommunityConnectDemo.gif",
         "description": "CommunityConnect is an online app, connecting people who need help with volunteers in their community. Users can post tasks or requests on the site, to show they need help. Other users can then view the tasks available and accept them. Think Airtasker for volunteers...",
         "languages": "HTML | CSS | Javascript | MySQL | NodeJS | Express",

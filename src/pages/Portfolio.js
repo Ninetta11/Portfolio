@@ -48,6 +48,7 @@ class Portfolio extends Component {
                         {this.useNonFeatured().map(project => (
                             <ProjectThumbnail
                                 projectName={project.name}
+                                projectLanguages={project.languages}
                                 imageSource={project.imageSource}
                                 setFeatureProject={this.setFeatureProject}
                             />
