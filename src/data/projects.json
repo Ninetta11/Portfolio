@@ -18,39 +18,39 @@
         "featured": false
     },
     {
+        "name": "Employee Directory",
+        "imageSource": "../assets/videos/Employee Directory Demo.gif",
+        "description": "Employee Directory created with React. Allows users to sort and filter employee results quickly and easily.",
+        "languages": "React | Javascript ",
+        "deployedProjectLink": "https://ninetta11.github.io/19-React-Employee-Directory/",
+        "codeLink": "https://github.com/Ninetta11/19-React-Employee-Directory",
+        "featured": false
+    },
+    {
+        "name": "README Generator",
+        "imageSource": "../assets/videos/README Generator Demo.gif",
+        "description": "Create a descriptive README file by answering the questions generated when the program is activated. The README will include a - *Project Title *Project Description *Table of Contents with links to relevant sections *Installation Information *Usage Information *License *Contributing Information *Testing Information *Questions",
+        "languages": "Javascript | NodeJS ",
+        "deployedProjectLink": "",
+        "codeLink": "https://github.com/Ninetta11/9-README-Generator",
+        "featured": false
+    },
+    {
         "name": "Weather Dashboard",
         "imageSource": "../assets/videos/Weather Dashboard Demo.gif",
         "description": "A weather dashboard that displays the current weather conditions as well as a 5-day forecast. Includes the addition of saving searches for future quick retrieval.",
-        "languages": "",
+        "languages": "HTML | CSS | Javascript",
         "deployedProjectLink": "https://ninetta11.github.io/6-Weather-Dashboard/",
         "codeLink": "https://github.com/Ninetta11/6-Weather-Dashboard.git",
         "featured": false
     },
     {
-        "name": "",
-        "imageSource": "",
-        "description": "",
-        "languages": "",
-        "deployedProjectLink": "",
-        "codeLink": "",
-        "featured": false
-    },
-    {
-        "name": "",
-        "imageSource": "",
-        "description": "",
-        "languages": "",
-        "deployedProjectLink": "",
-        "codeLink": "",
-        "featured": false
-    },
-    {
-        "name": "",
-        "imageSource": "",
-        "description": "",
-        "languages": "",
-        "deployedProjectLink": "",
-        "codeLink": "",
+        "name": "Budget Tracker",
+        "imageSource": "../assets/videos/Budget Tracker Demo.gif",
+        "description": "Budget Tracker allows the user to add expenses and deposits to their budget with or without an internet connection.",
+        "languages": "Javascript | NodeJs | Express | NoSQL",
+        "deployedProjectLink": "https://polar-depths-14399.herokuapp.com/",
+        "codeLink": "https://github.com/Ninetta11/Budget-Tracker",
         "featured": false
     }
 ]
