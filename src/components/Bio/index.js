@@ -1,4 +1,4 @@
-import profilePhoto from '../../public/assets/images/IMG_0006.jpeg';
+import profilePhoto from '../../assets/images/IMG_0006.jpeg';
 import './style.css'
 
 function Bio() {
