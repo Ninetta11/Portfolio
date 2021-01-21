@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
-import profilePhoto from '../assets/Images/IMG_0006.jpeg';
+import profilePhoto from './IMG_0006.jpeg';
+
 
 function About() {
     return (
