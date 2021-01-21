@@ -1,11 +1,11 @@
-h3, h6{
-text-align: center;
+.thumbnail-title, .thumbnail-subtitle { 
+    text-align: center;
 }
 
-h3 {
-    padding-top:30px;
+.thumbnail-subtitle {
+    font-size: small;
 }
 
-h6 {
-    padding-bottom: 5px;
+.card-overlay-container {
+    padding: 10%;
 }

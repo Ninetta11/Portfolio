@@ -7,19 +7,19 @@ function ProjectFeatured({
     codeLink,
 }) {
     return (
-        <div class="col mb-4">
-            <div class="card h-100">
-                <img src={imageSource} class="card-img-top"
+        <div className="col mb-4">
+            <div className="card h-100">
+                <img src={imageSource} className="card-img-top"
                     alt={projectName}></img>
-                <div class="card-body">
-                    <h4 class="card-title">{projectName}</h4>
-                    <p class="card-text">{projectDescription}</p>
+                <div className="card-body">
+                    <h4 className="card-title">{projectName}</h4>
+                    <p className="card-text">{projectDescription}</p>
                     <p><strong>{projectLanguages}</strong></p>
                 </div>
-                <div class="card-footer">
-                    <small class="text-muted">
+                <div className="card-footer">
+                    <small className="text-muted">
                         <a href={deployedProjectLink}>View App </a></small><span> | </span>
-                    <small class="text-muted">
+                    <small className="text-muted">
                         <a href={codeLink}> View Code</a></small>
                 </div>
             </div>

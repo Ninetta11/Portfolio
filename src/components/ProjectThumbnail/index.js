@@ -22,14 +22,16 @@ function ProjectThumbnail({
                 {!isShown ?
                     <img src={imageSource} className="card-img-top"
                         alt={projectName}></img>
-                    : <Fade top>
-                        <div className="card-img-overlay text-center">
-                            <h3>{projectName}</h3>
-                            <h6>{projectLanguages}</h6>
-                            <button className="btn btn-outline-info"
-                            >
-                                <Link onClick={() => setFeatureProject(projectName)} to="/portfolio">Learn More</Link>
-                            </button>
+                    :
+                    <Fade top>
+                        <div className="card-overlay-container my-auto">
+                            <h3 class="thumbnail-title">{projectName}</h3>
+                            <p class="thumbnail-subtitle">{projectLanguages}</p>
+                            <div className="text-center">
+                                <button className="btn btn-info">
+                                    <Link className="text-white" onClick={() => setFeatureProject(projectName)} to="/portfolio">Learn More</Link>
+                                </button>
+                            </div>
                         </div>
                     </Fade>
                 }

@@ -1,3 +1,4 @@
+import ReactPlayer from "react-player";
 
 function Achievements() {
     return (
@@ -19,10 +20,10 @@ function Achievements() {
                             locals could purchase all their grocery staples without the usual associated
                                         waste.</p>
                             <div className="media">
-                                <iframe width="944" height="531" src="https://www.youtube.com/embed/zBbpjYoI6s8"
-                                    alt="Port Grocer WIN TV news segment" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                                <ReactPlayer
+                                    url="https://www.youtube.com/embed/zBbpjYoI6s8"
+                                    alt="Port Grocer WIN TV news segment"
+                                />
                             </div>
                             <div className="media-body">
                                 <h5 className="mt-0">Port Grocer Opening</h5>
@@ -30,20 +31,20 @@ function Achievements() {
                                         distribution as well as a local presence. Larger retailers had abandoned Port
                                         Kembla over the previous 30 years and relocated to larger towns, leaving
                                         locals with no option but to travel into adjacent towns for their groceries.
-                                        Port
-                                        Grocer sought to rectify that by proving that local demand and community
-                                        cooperation could
-                                        come together to create a grass roots solution.
+                                        Port Grocer sought to rectify that by proving that local demand and community
+                                        cooperation could come together to create a grass roots solution.
                                     </div>
-                            <div className="media">
-                                <iframe
-                                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fportgrocer%2Fposts%2F616554375645994&show_text=true&width=552&height=513&appId"
-                                    alt="Port Grocer ABC News Story" className="mr-3 w-100"
-                                    style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                                    allowTransparency="true" allow="encrypted-media"></iframe>
-                            </div>
-                            <div className="media-body">
-                                <h5 className="mt-0">Plastic-free Community Supermarket</h5>
+                            <div class="fb-post"
+                                data-href="https://www.facebook.com/nkliman/posts/10158544351901636"
+                                data-width="500" data-show-text="true">
+                                <blockquote
+                                    cite="https://www.facebook.com/nkliman/posts/10158544351901636"
+                                    class="fb-xfbml-parse-ignore">
+                                    Posted by
+                                <a href="https://www.facebook.com/nkliman">Nina Welsh</a>
+                                 on&nbsp;
+                                 <a href="https://www.facebook.com/nkliman/posts/10158544351901636">Tuesday, July 21, 2020</a>
+                                </blockquote>
                             </div>
                         </div>
                         <div className="card-footer">
@@ -63,11 +64,9 @@ function Achievements() {
                             whether conviction and hardwork could turn an idea into a profitable business.
                                         The result spoke for itself.</p>
                             <div className="media">
-                                <iframe
-                                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnkliman%2Fposts%2F10153969054966636&show_text=true&width=552&height=435&appId"
-                                    alt="Geonbae Official Opening by Local Member Chris Chrewther"
-                                    className="mr-3 w-100" style="border:none;overflow:hidden" scrolling="no"
-                                    frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                                <ReactPlayer
+                                    url="https://fb.watch/38vARbSV9l/"
+                                />
                             </div>
                             <div className="media-body">
                                 <h5 className="mt-0">Geonbae Official Opening by Local Member Chris Chrewther</h5>
@@ -76,17 +75,17 @@ function Achievements() {
                                         top three restaurants in Frankston as voted on Tripadvisor. It has become a
                                         popular dining option for residents of the Mornington Peninsula and a shining
                                         star on the Frankston foreshore.
-                                    </div>
-                            <div className="media">
-                                <iframe
-                                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGeonbaeFrankston%2Fposts%2F1193041057467623&show_text=true&width=552&height=637&appId"
-                                    alt="Frankston City Council Start-up Grant recipient" className="mr-3 w-100"
-                                    style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                                    allowTransparency="true" allow="encrypted-media"></iframe>
                             </div>
+                            <br></br>
                             <div className="media-body">
                                 <h5 className="mt-0">Successful for $10,000 grant funding from Frankston City
                                 Council for a New Start-Up</h5>
+                                <div class="fb-post"
+                                    data-href="https://www.facebook.com/GeonbaeFrankston/posts/1193041057467623"
+                                    data-width="500" data-show-text="true">
+                                    <blockquote cite="https://www.facebook.com/GeonbaeFrankston/posts/1193041057467623"
+                                        class="fb-xfbml-parse-ignore"><p>We are so fortunate to be located in a city that supports small business with these sorts of initiatives. Thank you Frankston City Council!</p>Posted by <a href="https://www.facebook.com/GeonbaeFrankston/">Geonbae</a> on&nbsp;
+                                    <a href="https://www.facebook.com/GeonbaeFrankston/posts/1193041057467623">Monday, March 27, 2017</a></blockquote></div>
                             </div>
                         </div>
                         <div className="card-footer">
@@ -96,7 +95,7 @@ function Achievements() {
                     </div>
                 </div>
             </div>
-        </article>
+        </article >
     )
 }
 

@@ -46,7 +46,7 @@
     },
     {
         "name": "Budget Tracker",
-        "imageSource": "../assets/videos/Budget Tracker Demo.gif",
+        "imageSource": "../assets/videos/Budget Tracker Demo2.gif",
         "description": "Budget Tracker allows the user to add expenses and deposits to their budget with or without an internet connection.",
         "languages": "Javascript | NodeJs | Express | NoSQL",
         "deployedProjectLink": "https://polar-depths-14399.herokuapp.com/",
