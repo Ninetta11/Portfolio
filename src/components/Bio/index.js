@@ -1,4 +1,3 @@
-import profilePhoto from '../../assets/images/IMG_0006.jpeg';
 import './style.css'
 
 function Bio() {
@@ -7,7 +6,7 @@ function Bio() {
             <div className="row">
                 <div className="col-md-1"></div>
                 <div className="col-md-4">
-                    <img className="centre" src={profilePhoto} alt="Nina Welsh Profile Image" width="300"
+                    <img className="centre" src={process.env.PUBLIC_URL + '/assets/images/IMG_0006.jpeg'} alt="Nina Welsh Profile Image" width="300"
                         height="300"></img>
                 </div>
                 <div className="col-md-6">
