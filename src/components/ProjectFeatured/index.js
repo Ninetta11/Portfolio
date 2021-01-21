@@ -9,7 +9,7 @@ function ProjectFeatured({
     return (
         <div className="col mb-4">
             <div className="card h-100">
-                <img src={imageSource} className="card-img-top"
+                <img src={process.env.PUBLIC_URL + imageSource} className="card-img-top"
                     alt={projectName}></img>
                 <div className="card-body">
                     <h4 className="card-title">{projectName}</h4>

@@ -20,7 +20,7 @@ function ProjectThumbnail({
                 onClick={() => setFeatureProject(projectName)}
                 to="/portfolio">
                 {!isShown ?
-                    <img src={imageSource} className="card-img-top"
+                    <img src={process.env.PUBLIC_URL + imageSource} className="card-img-top"
                         alt={projectName}></img>
                     :
                     <Fade top>

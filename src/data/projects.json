@@ -1,7 +1,7 @@
 [
     {
         "name": "Community Connect",
-        "imageSource": "process.env.PUBLIC_URL + '/assets/videos/CommunityConnectDemo.gif",
+        "imageSource": "/assets/videos/CommunityConnectDemo.gif",
         "description": "CommunityConnect is an online app, connecting people who need help with volunteers in their community. Users can post tasks or requests on the site, to show they need help. Other users can then view the tasks available and accept them. Think Airtasker for volunteers...",
         "languages": "HTML | CSS | Javascript | MySQL | NodeJS | Express",
         "deployedProjectLink": "https://communityconnect-1.herokuapp.com/",
@@ -10,7 +10,7 @@
     },
     {
         "name": "Pinboard",
-        "imageSource": "process.env.PUBLIC_URL + '/assets/videos/Student-view Demo.gif",
+        "imageSource": "/assets/videos/Student-view Demo.gif",
         "description": "Pinboard is an online school bulletin board that displays year group specific information for students. Incorporates a message board on the student view. Administration access allows both school specific and class specific information to be updated dynamically.",
         "languages": "HTML | CSS | Javascript | NoSQL",
         "deployedProjectLink": "https://ninetta11.github.io/Pinboard/",
@@ -19,7 +19,7 @@
     },
     {
         "name": "Employee Directory",
-        "imageSource": "process.env.PUBLIC_URL + '/assets/videos/Employee Directory Demo.gif",
+        "imageSource": "/assets/videos/Employee Directory Demo.gif",
         "description": "Employee Directory created with React. Allows users to sort and filter employee results quickly and easily.",
         "languages": "React | Javascript ",
         "deployedProjectLink": "https://ninetta11.github.io/19-React-Employee-Directory/",
@@ -28,7 +28,7 @@
     },
     {
         "name": "README Generator",
-        "imageSource": "process.env.PUBLIC_URL + '/assets/videos/README Generator Demo.gif",
+        "imageSource": "/assets/videos/README Generator Demo.gif",
         "description": "Create a descriptive README file by answering the questions generated when the program is activated. The README will include a - *Project Title *Project Description *Table of Contents with links to relevant sections *Installation Information *Usage Information *License *Contributing Information *Testing Information *Questions",
         "languages": "Javascript | NodeJS ",
         "deployedProjectLink": "",
@@ -37,7 +37,7 @@
     },
     {
         "name": "Weather Dashboard",
-        "imageSource": "process.env.PUBLIC_URL + '/assets/videos/Weather Dashboard Demo.gif",
+        "imageSource": "/assets/videos/Weather Dashboard Demo.gif",
         "description": "A weather dashboard that displays the current weather conditions as well as a 5-day forecast. Includes the addition of saving searches for future quick retrieval.",
         "languages": "HTML | CSS | Javascript",
         "deployedProjectLink": "https://ninetta11.github.io/6-Weather-Dashboard/",
@@ -46,7 +46,7 @@
     },
     {
         "name": "Budget Tracker",
-        "imageSource": "process.env.PUBLIC_URL + '/assets/videos/Budget Tracker Demo2.gif",
+        "imageSource": "/assets/videos/Budget Tracker Demo2.gif",
         "description": "Budget Tracker allows the user to add expenses and deposits to their budget with or without an internet connection.",
         "languages": "Javascript | NodeJs | Express | NoSQL",
         "deployedProjectLink": "https://polar-depths-14399.herokuapp.com/",
