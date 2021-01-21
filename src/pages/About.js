@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
+import profilePhoto from '../assets/Images/IMG_0006.jpeg';
 
 function About() {
     return (
@@ -7,7 +8,7 @@ function About() {
             <div className="col-md-1"></div>
             <article id="about" className="col-md-6">
                 <h3>About</h3>
-                <img id="about-img" className="right" src="../assets/Images/IMG_0006.jpeg"
+                <img id="about-img" className="right" src={profilePhoto}
                     alt="Nina Welsh Profile Image" width="250" height="250"></img>
                 <p>Full stack web developer with extensive program and project management experience in a
                 diverse range of industries. A Certificate from Sydney University in full stack web
