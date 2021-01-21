@@ -1,25 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import NavLinkHeader from '../NavLinkHeader';
+import pages from '../../data/pages.json'
 import './style.css';
 
-const pages = [
-    {
-        name: "Portfolio",
-        link: "portfolio",
-        classState: "nav-link"
-    },
-    {
-        name: "Achievements",
-        link: "achievements",
-        classState: "nav-link"
-    },
-    {
-        name: "About",
-        link: "about",
-        classState: "nav-link"
-    }
-]
 
 class Header extends Component {
 

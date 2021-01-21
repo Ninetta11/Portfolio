@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ProjectThumbnail from '../ProjectThumbnail';
 import projects from '../../data/projects.json';
 
+
 class ProjectBanner extends Component {
 
     state = {

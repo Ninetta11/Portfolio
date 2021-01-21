@@ -1,11 +1,13 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFile } from '@fortawesome/free-solid-svg-icons';
 
 function About() {
     return (
-        <div class="row">
-            <div class="col-md-1"></div>
-            <article id="about" class="col-md-6">
+        <div className="row">
+            <div className="col-md-1"></div>
+            <article id="about" className="col-md-6">
                 <h3>About</h3>
-                <img id="about-img" class="right" src="../assets/Images/IMG_0006.jpeg"
+                <img id="about-img" className="right" src="../assets/Images/IMG_0006.jpeg"
                     alt="Nina Welsh Profile Image" width="250" height="250"></img>
                 <p>Full stack web developer with extensive program and project management experience in a
                 diverse range of industries. A Certificate from Sydney University in full stack web
@@ -17,34 +19,33 @@ function About() {
                 skills and work autonomously. Seeking to apply this broad range of skills and experience,
                 together with a passion for societal change towards a more sustainable and equitable future,
                 within the blockchain and distributed ledger technology space.</p>
-                <a id="resume" class="btn btn-lg btn-outline-light"
-                    href="https://drive.google.com/file/d/1NZC2dtxOwhOCGFe1Hrwy4AXa2RNNmj0v/view?usp=sharing"><i
-                        class="far fa-file"></i>
-                Resume</a>
+                <a id="resume" className="btn btn-lg btn-outline-light"
+                    href="https://drive.google.com/file/d/11XV-7_rSVe7VOs8f39qq41sop5dgZ-D_/view?usp=sharing">
+                    <FontAwesomeIcon icon={faFile} /> Resume</a>
             </article>
 
-            <form id="contact" class="col-md-4">
-                <div class="col-md-12">
+            <form id="contact" className="col-md-4">
+                <div className="col-md-12">
                     <h3>Contact</h3>
-                    <div class="form-group">
-                        <label for="inputName">Name:</label>
-                        <input type="text" class="form-control" id="name" placeholder="Full Name"></input>
+                    <div className="form-group">
+                        <label htmlFor="inputName">Name:</label>
+                        <input type="text" className="form-control" id="name" placeholder="Full Name"></input>
                     </div>
-                    <div class="form-group">
-                        <label for="inputEmail">Email:</label>
-                        <input type="email" class="form-control" id="email" placeholder="example@email.com.au"
+                    <div className="form-group">
+                        <label htmlFor="inputEmail">Email:</label>
+                        <input type="email" className="form-control" id="email" placeholder="example@email.com.au"
                             aria-describedby="emailHelp"></input>
-                        <small id="emailHelp" class="form-text text-muted"></small>
+                        <small id="emailHelp" className="form-text text-muted"></small>
                     </div>
-                    <div class="form-group">
-                        <label for="inputMessage">Message:</label>
-                        <textarea class="form-control" id="message" rows="3"
+                    <div className="form-group">
+                        <label htmlFor="inputMessage">Message:</label>
+                        <textarea className="form-control" id="message" rows="3"
                             placeholder="Enter your message here"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary right" value="submit">Submit</button>
+                    <button type="submit" className="btn btn-primary right" value="submit">Submit</button>
                 </div>
             </form>
-            <div class="col-md-1"></div>
+            <div className="col-md-1"></div>
         </div>
     )
 }
