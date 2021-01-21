@@ -1,6 +1,6 @@
 # Portfolio
-Assignment 2: Responsive Portfolio
-### Creation of personal website with responsive layout utilising Bootstrap css.
+Personal Portfolio showcasing projects and personal achievements.
+### Creation of personal website with responsive layout utilising React.
 
 ## Personal Bio
 Personal Bio inclusive of:
