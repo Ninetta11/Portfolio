@@ -1,12 +1,21 @@
 [
     {
+        "name": "Witness",
+        "imageSource": "/assets/videos/Budget Tracker Demo2.gif",
+        "description": "Witness allows you to create a Statutory Declaration in seconds, instantaneously saving it to the IOTA blockchain creating an immutable record that cannot be doctored, deleted or edited, eliminating the need for a certified witness.",
+        "languages": "Javascript | NodeJs | NoSQL | React | IOTA ",
+        "deployedProjectLink": "https://project3-witness.herokuapp.com/",
+        "codeLink": "https://github.com/Ninetta11/Witness",
+        "featured": true
+    },
+    {
         "name": "Community Connect",
         "imageSource": "/assets/videos/CommunityConnectDemo.gif",
         "description": "CommunityConnect is an online app, connecting people who need help with volunteers in their community. Users can post tasks or requests on the site, to show they need help. Other users can then view the tasks available and accept them. Think Airtasker for volunteers...",
         "languages": "HTML | CSS | Javascript | MySQL | NodeJS | Express",
         "deployedProjectLink": "https://communityconnect-1.herokuapp.com/",
         "codeLink": "https://github.com/Ninetta11/CommunityConnect.git",
-        "featured": true
+        "featured": false
     },
     {
         "name": "Pinboard",
@@ -19,7 +28,7 @@
     },
     {
         "name": "Employee Directory",
-        "imageSource": "/assets/videos/Employee Directory Demo.gif",
+        "imageSource": "/assets/videos/createstatdec.gif",
         "description": "Employee Directory created with React. Allows users to sort and filter employee results quickly and easily.",
         "languages": "React | Javascript ",
         "deployedProjectLink": "https://ninetta11.github.io/19-React-Employee-Directory/",
@@ -42,15 +51,6 @@
         "languages": "HTML | CSS | Javascript",
         "deployedProjectLink": "https://ninetta11.github.io/6-Weather-Dashboard/",
         "codeLink": "https://github.com/Ninetta11/6-Weather-Dashboard.git",
-        "featured": false
-    },
-    {
-        "name": "Budget Tracker",
-        "imageSource": "/assets/videos/Budget Tracker Demo2.gif",
-        "description": "Budget Tracker allows the user to add expenses and deposits to their budget with or without an internet connection.",
-        "languages": "Javascript | NodeJs | Express | NoSQL",
-        "deployedProjectLink": "https://polar-depths-14399.herokuapp.com/",
-        "codeLink": "https://github.com/Ninetta11/Budget-Tracker",
         "featured": false
     }
 ]
