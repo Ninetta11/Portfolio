@@ -21,7 +21,7 @@ function About() {
                 together with a passion for societal change towards a more sustainable and equitable future,
                 within the blockchain and distributed ledger technology space.</p>
                 <a id="resume" className="btn btn-lg btn-outline-light"
-                    href="https://drive.google.com/file/d/11XV-7_rSVe7VOs8f39qq41sop5dgZ-D_/view?usp=sharing">
+                    href="https://docs.google.com/document/d/1DGsjAUQYy1cVfIxZCVnlIrUWHBtGUAK8Z5Vd8EcyPvQ/edit?usp=sharing">
                     <FontAwesomeIcon icon={faFile} /> Resume</a>
             </article>
 
