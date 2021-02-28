@@ -1,7 +1,7 @@
 [
     {
         "name": "Witness",
-        "imageSource": "/assets/videos/Budget Tracker Demo2.gif",
+        "imageSource": "/assets/videos/createstatdec.gif",
         "description": "Witness allows you to create a Statutory Declaration in seconds, instantaneously saving it to the IOTA blockchain creating an immutable record that cannot be doctored, deleted or edited, eliminating the need for a certified witness.",
         "languages": "Javascript | NodeJs | NoSQL | React | IOTA ",
         "deployedProjectLink": "https://project3-witness.herokuapp.com/",
@@ -28,7 +28,7 @@
     },
     {
         "name": "Employee Directory",
-        "imageSource": "/assets/videos/createstatdec.gif",
+        "imageSource": "/assets/videos/Employee Directory Demo.gif",
         "description": "Employee Directory created with React. Allows users to sort and filter employee results quickly and easily.",
         "languages": "React | Javascript ",
         "deployedProjectLink": "https://ninetta11.github.io/19-React-Employee-Directory/",
