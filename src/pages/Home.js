@@ -1,6 +1,8 @@
 import Bio from "../components/Bio";
 import ProjectBanner from "../components/ProjectBanner";
 import ScrollDownButton from '../components/ScrollDownButton';
+import './style.css';
+
 
 function Home() {
     return (

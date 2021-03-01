@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Form, Input, Button, message } from 'antd';
 import { SendOutlined } from '@ant-design/icons';
 import { sendEmail } from '../../utils/emailAPI';
+import './style.css';
 
 const { TextArea } = Input;
 
@@ -15,6 +16,11 @@ function ContactForm() {
         message: '',
         alerts: ''
     });
+
+    const layout = {
+        labelCol: { span: 5 },
+        wrapperCol: { span: 24 },
+    };
 
     const onChange = (e) => {
         setFormState({
@@ -36,6 +42,8 @@ function ContactForm() {
 
     return (
         <Form
+            {...layout}
+            id="contact"
             className="col-md-4"
             form={form}
             noValidate
@@ -94,14 +102,16 @@ function ContactForm() {
                     onChange={onChange} />
             </Form.Item>
 
-            <Form.Item
-                name="Submit">
-                <Button
-                    type="primary"
-                    shape="round"
-                    icon={<SendOutlined />}
-                    htmlType="submit" > Send</Button>
-            </Form.Item>
+            <div style={{ textAlign: 'center' }}>
+                <Form.Item
+                    name="Submit">
+                    <Button
+                        type="primary"
+                        shape="round"
+                        icon={<SendOutlined />}
+                        htmlType="submit" > Send</Button>
+                </Form.Item>
+            </div>
 
         </Form>
     )
