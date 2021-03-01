@@ -79,45 +79,4 @@ iframe {
     float: right;
 }
 
-.navbar {
-    background-color: #3D5467;
-}
 
-#about,
-#contact {
-    border-style: solid;
-    border-color: #3D5467;
-    border-width: 0px 15px;
-    padding: 50px;
-}
-
-#about {
-    background-color:#EFCB68;
-}
-
-#about-img {
-    margin-left: 35px;
-    margin-bottom: 35px;
-}
-
-#contact {
-    background-color: #E7ECEF;
-}
-
-#portfolio, 
-#achievements {
-    margin-left: 45px;
-    margin-right: 45px;
-    border-style: solid;
-    border-color: #EFCB68;
-    border-width: 7px;
-    padding: 25px 50px;
-}
-
-#resume {
-    border-color: #3D5467;
-    color: #3D5467;
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
-}
