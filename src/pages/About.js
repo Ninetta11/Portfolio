@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
-
+import ContactForm from '../components/ContactForm';
 
 function About() {
     return (
@@ -25,27 +25,8 @@ function About() {
                     <FontAwesomeIcon icon={faFile} /> Resume</a>
             </article>
 
-            <form id="contact" className="col-md-4">
-                <div className="col-md-12">
-                    <h3>Contact</h3>
-                    <div className="form-group">
-                        <label htmlFor="inputName">Name:</label>
-                        <input type="text" className="form-control" id="name" placeholder="Full Name"></input>
-                    </div>
-                    <div className="form-group">
-                        <label htmlFor="inputEmail">Email:</label>
-                        <input type="email" className="form-control" id="email" placeholder="example@email.com.au"
-                            aria-describedby="emailHelp"></input>
-                        <small id="emailHelp" className="form-text text-muted"></small>
-                    </div>
-                    <div className="form-group">
-                        <label htmlFor="inputMessage">Message:</label>
-                        <textarea className="form-control" id="message" rows="3"
-                            placeholder="Enter your message here"></textarea>
-                    </div>
-                    <button type="submit" className="btn btn-primary right" value="submit">Submit</button>
-                </div>
-            </form>
+            <ContactForm />
+
             <div className="col-md-1"></div>
         </div>
     )

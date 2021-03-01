@@ -1,4 +1,5 @@
 import { HashRouter as Router, Route } from "react-router-dom";
+import 'antd/dist/antd.css';
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import Achievements from "./pages/Achievements";
