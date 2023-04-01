@@ -3,8 +3,7 @@ function ProjectFeatured({
     projectName,
     projectDescription,
     projectLanguages,
-    deployedProjectLink,
-    codeLink,
+    projectLink,
 }) {
     return (
         <div className="col mb-4">
@@ -18,9 +17,7 @@ function ProjectFeatured({
                 </div>
                 <div className="card-footer">
                     <small className="text-muted">
-                        <a href={deployedProjectLink}>View App </a></small><span> | </span>
-                    <small className="text-muted">
-                        <a href={codeLink}> View Code</a></small>
+                        <a href={projectLink}>View Website</a></small><span> | </span>
                 </div>
             </div>
         </div>
