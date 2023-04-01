@@ -1,56 +1,70 @@
-[
-    {
-        "name": "Witness",
-        "imageSource": "/assets/videos/createstatdec.gif",
-        "description": "Witness allows you to create a Statutory Declaration in seconds, instantaneously saving it to the IOTA blockchain creating an immutable record that cannot be doctored, deleted or edited, eliminating the need for a certified witness.",
-        "languages": "Javascript | NodeJs | NoSQL | React | IOTA ",
-        "deployedProjectLink": "https://project3-witness.herokuapp.com/",
-        "codeLink": "https://github.com/Ninetta11/Witness",
-        "featured": true
-    },
-    {
-        "name": "Community Connect",
-        "imageSource": "/assets/videos/CommunityConnectDemo.gif",
-        "description": "CommunityConnect is an online app, connecting people who need help with volunteers in their community. Users can post tasks or requests on the site, to show they need help. Other users can then view the tasks available and accept them. Think Airtasker for volunteers...",
-        "languages": "HTML | CSS | Javascript | MySQL | NodeJS | Express",
-        "deployedProjectLink": "https://communityconnect-1.herokuapp.com/",
-        "codeLink": "https://github.com/Ninetta11/CommunityConnect.git",
-        "featured": false
-    },
-    {
-        "name": "Pinboard",
-        "imageSource": "/assets/videos/Student-view Demo.gif",
-        "description": "Pinboard is an online school bulletin board that displays year group specific information for students. Incorporates a message board on the student view. Administration access allows both school specific and class specific information to be updated dynamically.",
-        "languages": "HTML | CSS | Javascript | NoSQL",
-        "deployedProjectLink": "https://ninetta11.github.io/Pinboard/",
-        "codeLink": "https://github.com/Ninetta11/Pinboard.git",
-        "featured": false
-    },
-    {
-        "name": "Employee Directory",
-        "imageSource": "/assets/videos/Employee Directory Demo.gif",
-        "description": "Employee Directory created with React. Allows users to sort and filter employee results quickly and easily.",
-        "languages": "React | Javascript ",
-        "deployedProjectLink": "https://ninetta11.github.io/19-React-Employee-Directory/",
-        "codeLink": "https://github.com/Ninetta11/19-React-Employee-Directory",
-        "featured": false
-    },
-    {
-        "name": "README Generator",
-        "imageSource": "/assets/videos/README Generator Demo.gif",
-        "description": "Create a descriptive README file by answering the questions generated when the program is activated. The README will include a - *Project Title *Project Description *Table of Contents with links to relevant sections *Installation Information *Usage Information *License *Contributing Information *Testing Information *Questions",
-        "languages": "Javascript | NodeJS ",
-        "deployedProjectLink": "",
-        "codeLink": "https://github.com/Ninetta11/9-README-Generator",
-        "featured": false
-    },
-    {
-        "name": "Weather Dashboard",
-        "imageSource": "/assets/videos/Weather Dashboard Demo.gif",
-        "description": "A weather dashboard that displays the current weather conditions as well as a 5-day forecast. Includes the addition of saving searches for future quick retrieval.",
-        "languages": "HTML | CSS | Javascript",
-        "deployedProjectLink": "https://ninetta11.github.io/6-Weather-Dashboard/",
-        "codeLink": "https://github.com/Ninetta11/6-Weather-Dashboard.git",
-        "featured": false
-    }
-]
+{
+    "workProjects": [
+        {
+            "name": "AGL",
+            "imageSource": "/assets/images/agl.webp",
+            "description": "Working within the Identity Management Team as a Digital Developer. Implemented user ability to share personal data with third parties in line with the new Consumer Data Rights Legislation. Upgraded from the Custom to Universal Login in AGL's Auth0 intergration to provide a more seemless and modern login experience for users.",
+            "languages": "Identity Management | Auth0 | Azure",
+            "projectLink": "https://www.agl.com.au/",
+            "featured": true
+        },
+        {
+            "name": "Linktree",
+            "imageSource": "/assets/images/linktree.webp",
+            "description": "Developed and launched Linktree's new pricing and packaging structure and contributed to both the frontend and backend",
+            "languages": "PHP | Typescript | LaunchDarkly",
+            "projectLink": "https://linktr.ee/",
+            "featured": false
+        },
+        {
+            "name": "ANZ",
+            "imageSource": "/assets/images/anzplus.svg",
+            "description": "Worked on the initial concept and development of a marketplace to be integrated into the new ANZ Plus App",
+            "languages": "Golang | Auth0 | Google Cloud",
+            "projectLink": "https://www.anz.com.au/plus",
+            "featured": false
+        },
+        {
+            "name": "Propel",
+            "imageSource": "/assets/images/Propel Logo.png",
+            "description": "Worked at Propel as a Full Stack Developer and consultant to ANZ, Linktree and AGL",
+            "languages": "Full Stack Developer | Consultant",
+            "projectLink": "https://www.propelventures.com.au/",
+            "featured": false
+        }
+    ],
+    "personalProjects": [
+        {
+            "name": "Geonbae Korean BBQ Restaurant",
+            "imageSource": "/assets/images/Geonbae.webp",
+            "description": "From initial concept - to fitout in a new commercial building - to ongoing management and marketing - Geonbae was a personal experiment to test whether conviction and hardwork could turn an idea into a profitable business. The result speaks for itself.",
+            "languages": "Frankston, Victoria",
+            "projectLink": "https://www.geonbae.com.au/",
+            "featured": true
+        },
+        {
+            "name": "Port Grocer",
+            "imageSource": "/assets/images/linktree.webp",
+            "description": "The local community of Port Kembla asked for a community led, zero waste supermarket to be established in the township. A run down warehouse was obtained and transformed into a welcoming community meeting place where locals could purchase all their grocery staples without the usual associated waste.",
+            "languages": "Port Kembla, NSW",
+            "projectLink": "https://www.ourcommunityproject.org.au/",
+            "featured": false
+        },
+        {
+            "name": "Loch & Key Restaurant",
+            "imageSource": "/assets/images/lochnkey.png",
+            "description": "Revamped an old Victorian building and created a welcoming and intimate dining experience in the scenic village of Loch in South Gippsland.",
+            "languages": "Loch, Victoria",
+            "projectLink": "https://www.lochnkey.com.au",
+            "featured": false
+        },
+        {
+            "name": "Camino",
+            "imageSource": "/assets/images/Propel Logo.png",
+            "description": "Worked at Propel as a Full Stack Developer and consultant to ANZ, Linktree and AGL",
+            "languages": "France - Spain",
+            "projectLink": "https://www.propelventures.com.au/",
+            "featured": false
+        }
+    ]
+}

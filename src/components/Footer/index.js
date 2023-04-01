@@ -28,7 +28,7 @@ const personalDetails = [
         href: "https://www.linkedin.com/in/nina-welsh-b2407398"
     },
     {
-        text: " Github - Ninetta11",
+        text: " Github",
         icon: faGithub,
         href: "https://github.com/Ninetta11"
     }
