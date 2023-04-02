@@ -20,8 +20,10 @@ function Header() {
         })
         if (name === "home") {
             scroll.scrollToTop()
-        } else if (name === "portfolio") {
+        } else if (name === "about") {
             scroll.scrollTo(1000, 0)
+        } else if (name === "portfolio") {
+            scroll.scrollTo(1250, 0)
         } else {
             scroll.scrollToBottom()
         }

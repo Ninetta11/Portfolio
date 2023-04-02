@@ -1,12 +1,12 @@
 [
     {
-        "name": "Portfolio",
-        "link": "portfolio",
+        "name": "About",
+        "link": "about",
         "classState": "nav-link"
     },
     {
-        "name": "About",
-        "link": "about",
+        "name": "Portfolio",
+        "link": "portfolio",
         "classState": "nav-link"
     },
     {

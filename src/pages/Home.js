@@ -17,11 +17,11 @@ function Home() {
                     />
                 </div>
             </div>
+            <Profile />
+            <br></br>
             <div className="featured-projects">
                 <ProjectBanner />
             </div>
-            <br></br>
-            <Profile />
         </div>
     )
 }
