@@ -17,10 +17,6 @@ function ContactForm() {
         alerts: ''
     });
 
-    const layout = {
-        labelCol: { span: 5 },
-        wrapperCol: { span: 20 },
-    };
 
     const onChange = (e) => {
         setFormState({
@@ -42,35 +38,35 @@ function ContactForm() {
 
     return (
         <Form
-            {...layout}
             id="contact"
-            className="col-md-4"
             form={form}
             noValidate
             initialValues={{ remember: true, }}
-            onFinish={handleEmailSend}>
-            {formState.alerts ?
-                message[formState.alerts.type](formState.alerts.message).then(setFormState({ ...formState, alerts: '' }))
-                :
-                null
+            onFinish={handleEmailSend} >
+            {
+                formState.alerts ?
+                    message[formState.alerts.type](formState.alerts.message).then(setFormState({ ...formState, alerts: '' }))
+                    :
+                    null
             }
 
-            <Form.Item
+            < Form.Item
                 name="name"
-                rules={[
-                    {
-                        type: 'string',
-                        required: true,
-                        message: "Please enter your name"
-                    }
-                ]}
+                rules={
+                    [
+                        {
+                            type: 'string',
+                            required: true,
+                            message: "Please enter your name"
+                        }
+                    ]}
             >
                 <Input
                     name="name"
                     placeholder="Enter your name"
                     value={formState.name}
                     onChange={onChange} />
-            </Form.Item>
+            </Form.Item >
 
             <Form.Item
                 name="email"
@@ -109,7 +105,7 @@ function ContactForm() {
                 </Form.Item>
             </div>
 
-        </Form>
+        </Form >
     )
 }
 

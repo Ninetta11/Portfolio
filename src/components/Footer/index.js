@@ -6,6 +6,7 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import './style.css';
 
 const personalDetails = [
     {
@@ -45,6 +46,9 @@ class Footer extends Component {
         return (
             <footer className="position-sticky">
                 <div id="inner" className="row row-cols-1 row-cols-lg-2">
+                <div id="nav-links" className="nav flex-column align-items-center">
+                        <ContactForm />
+                    </div>
                     <ul className="nav flex-column align-items-center">
                         {this.state.personalDetails.map(detail => (
                             <NavLinkFooter
@@ -53,9 +57,7 @@ class Footer extends Component {
                                 href={detail.href}
                             />
                         ))}
-                        <br></br>
                     </ul>
-                    <ContactForm />
                 </div>
             </footer >
         )
