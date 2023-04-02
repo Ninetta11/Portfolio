@@ -12,7 +12,7 @@ function Home() {
                 <Bio />
                 <div className="bottom-container" >
                     <ScrollDownButton
-                        x={1000}
+                        x={700}
                         y={0}
                     />
                 </div>

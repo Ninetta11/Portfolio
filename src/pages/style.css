@@ -45,7 +45,7 @@ iframe {
 }
 
 .bio-container {
-    min-height: 100vh;
+    min-height: 95vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -86,11 +86,6 @@ iframe {
     padding: 50px;
 }
 
-#about-img {
-    margin-left: 35px;
-    margin-bottom: 35px;
-}
-
 #portfolio,
 #achievements {
     margin-left: 45px;
@@ -107,4 +102,22 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto
+}
+
+@media (min-width : 0px) {
+    #about_text {
+        font-size: 10px;
+    }
+}
+
+@media (min-width : 320px) {
+    #about_text {
+        font-size: 12px;
+    }
+}
+
+@media (min-width : 750px) {
+    #about_text {
+        font-size: 20px;
+    }
 }

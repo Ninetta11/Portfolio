@@ -6,7 +6,7 @@ function Profile() {
     return (
         <article id="about" className="col-md-12">
             <h3>About</h3>
-            <h4>Full Stack Software Engineer with extensive program and project management experience in a
+            <h4 id="about_text">Full Stack Software Engineer with extensive program and project management experience in a
                 diverse range of industries. A Certificate from Sydney University in full stack web
                 technologies, including Javascript, CSS, HTML, Node.JS, Express, React, MySQL, NoSQL and
                 others, as well as a Bachelor Degree in Development Studies from La Trobe University.

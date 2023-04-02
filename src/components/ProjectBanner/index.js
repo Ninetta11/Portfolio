@@ -34,7 +34,7 @@ class ProjectBanner extends Component {
                 </Modal>
                 <article id="portfolio">
                     <div className="row">
-                        <h1>Work Projects</h1>
+                        <h1>As a developer...</h1>
                     </div>
                     <div id="inner" className="row row-cols-1 row-cols-lg-4">
                         {projects.workProjects.map(project =>
@@ -51,7 +51,7 @@ class ProjectBanner extends Component {
                 <br></br>
                 <article id="portfolio">
                     <div className="row">
-                        <h1>Personal Projects</h1>
+                        <h1>As an individual...</h1>
                     </div>
                     <div id="inner" className="row row-cols-1 row-cols-lg-4">
                         {projects.personalProjects.map(project =>

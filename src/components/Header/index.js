@@ -21,9 +21,9 @@ function Header() {
         if (name === "home") {
             scroll.scrollToTop()
         } else if (name === "about") {
-            scroll.scrollTo(1000, 0)
+            scroll.scrollTo(700, 0)
         } else if (name === "portfolio") {
-            scroll.scrollTo(1250, 0)
+            scroll.scrollTo(1140, 0)
         } else {
             scroll.scrollToBottom()
         }
