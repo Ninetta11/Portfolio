@@ -19,8 +19,7 @@ function ProjectThumbnail({
             <div className="card bg-light h-100"
                 onMouseEnter={() => setIsShown(true)}
                 onMouseLeave={() => setIsShown(false)}
-                onClick={() => showModal(projectName, projectDescription, projectLink)}
-                to="/portfolio">
+                onClick={() => showModal(projectName, projectDescription, projectLink)}>
                 {!isShown ?
                     <img src={process.env.PUBLIC_URL + imageSource} className="card-img-top"
                         alt={projectName}></img>

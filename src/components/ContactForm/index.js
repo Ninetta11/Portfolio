@@ -19,7 +19,7 @@ function ContactForm() {
 
     const layout = {
         labelCol: { span: 5 },
-        wrapperCol: { span: 24 },
+        wrapperCol: { span: 20 },
     };
 
     const onChange = (e) => {
@@ -49,8 +49,6 @@ function ContactForm() {
             noValidate
             initialValues={{ remember: true, }}
             onFinish={handleEmailSend}>
-            <h3>Contact</h3>
-
             {formState.alerts ?
                 message[formState.alerts.type](formState.alerts.message).then(setFormState({ ...formState, alerts: '' }))
                 :
@@ -58,13 +56,12 @@ function ContactForm() {
             }
 
             <Form.Item
-                label="Name"
                 name="name"
                 rules={[
                     {
                         type: 'string',
                         required: true,
-                        message: "Please enter your name!"
+                        message: "Please enter your name"
                     }
                 ]}
             >
@@ -77,26 +74,25 @@ function ContactForm() {
 
             <Form.Item
                 name="email"
-                label="Email"
                 rules={[
                     {
                         type: 'email',
                         required: true,
-                        message: 'Please enter an email address!',
+                        message: 'Please enter an email address',
                     },
                 ]}
             ><Input
                     name="email"
-                    placeholder="address@email.com.au"
+                    placeholder="Enter your email address"
                     value={formState.email}
                     onChange={onChange} />
             </Form.Item>
 
             <Form.Item
-                label='Message'
                 name="message">
                 <TextArea
                     name="message"
+                    placeholder="Add a message"
                     row={5}
                     value={formState.message}
                     onChange={onChange} />

@@ -9,9 +9,9 @@ class ProjectBanner extends Component {
     state = {
         projects,
         isModalOpen: false,
-        modalTitle: '',
-        modalDescription: '',
-        modalHref: ''
+        modalTitle: null,
+        modalDescription: null,
+        modalHref: null
     }
 
     showModal = (title, description, link) => {
@@ -36,7 +36,7 @@ class ProjectBanner extends Component {
                     <div className="row">
                         <h1>Work Projects</h1>
                     </div>
-                    <div id="inner" className="row row-cols-1 row-cols-lg-3">
+                    <div id="inner" className="row row-cols-1 row-cols-lg-4">
                         {projects.workProjects.map(project =>
                             <ProjectThumbnail
                                 projectName={project.name}
@@ -48,11 +48,12 @@ class ProjectBanner extends Component {
                             />)}
                     </div>
                 </article >
+                <br></br>
                 <article id="portfolio">
                     <div className="row">
                         <h1>Personal Projects</h1>
                     </div>
-                    <div id="inner" className="row row-cols-1 row-cols-lg-3">
+                    <div id="inner" className="row row-cols-1 row-cols-lg-4">
                         {projects.personalProjects.map(project =>
                             <ProjectThumbnail
                                 projectName={project.name}

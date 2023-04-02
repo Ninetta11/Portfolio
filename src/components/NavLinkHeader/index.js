@@ -11,7 +11,7 @@ function NavLinkHeader({
             className={classState}
             name={navLink}
             onClick={() => setClass(navLink)}
-            to={navLink}>{navText}
+        >{navText}
         </Link>
     )
 };

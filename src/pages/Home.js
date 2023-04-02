@@ -1,4 +1,5 @@
 import Bio from "../components/Bio";
+import Profile from "../components/Profile";
 import ProjectBanner from "../components/ProjectBanner";
 import ScrollDownButton from '../components/ScrollDownButton';
 import './style.css';
@@ -10,12 +11,17 @@ function Home() {
             <div className="bio-container">
                 <Bio />
                 <div className="bottom-container" >
-                    <ScrollDownButton />
+                    <ScrollDownButton
+                        x={1000}
+                        y={0}
+                    />
                 </div>
             </div>
             <div className="featured-projects">
                 <ProjectBanner />
             </div>
+            <br></br>
+            <Profile />
         </div>
     )
 }
