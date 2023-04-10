@@ -1,0 +1,11 @@
+.modal-subtitle {
+    text-align: center;
+    font-weight: bold;
+}
+
+.modal-image {
+    flex: content;
+    display: block;
+    align-items: center;
+    background-color: #ffff;
+}

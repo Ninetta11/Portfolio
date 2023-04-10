@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Button, Modal } from 'antd';
 import ProjectThumbnail from '../ProjectThumbnail';
 import projects from '../../data/projects.json';
+import './style.css';
 
 
 class ProjectBanner extends Component {
@@ -11,11 +12,14 @@ class ProjectBanner extends Component {
         isModalOpen: false,
         modalTitle: null,
         modalDescription: null,
-        modalHref: null
+        modalHref: null,
+        modalSubtitle: null,
+        modalImage: null,
+        modalDates: null
     }
 
-    showModal = (title, description, link) => {
-        this.setState({ ...this.state, isModalOpen: true, modalTitle: title, modalDescription: description, modalHref: link })
+    showModal = (title, description, link, languages, image, dates) => {
+        this.setState({ ...this.state, isModalOpen: true, modalTitle: title, modalDescription: description, modalHref: link, modalSubtitle: languages, modalImage: image, modalDates: dates })
     };
 
     hideModal = () => {
@@ -30,7 +34,11 @@ class ProjectBanner extends Component {
                     visible={this.state.isModalOpen}
                     onCancel={this.hideModal}
                     footer={[<Button key="cancel" href={this.state.modalHref}>Visit Website</Button>]} >
+                    <img className="modal-image" src={process.env.PUBLIC_URL + this.state.modalImage} alt={this.state.modalTitle} width="200"
+                        height="200"></img>
+                    <p className="modal-subtitle">{this.state.modalSubtitle}</p>
                     <p>{this.state.modalDescription}</p>
+                    <p className="modal-subtitle">{this.state.modalDates}</p>
                 </Modal>
                 <article id="portfolio">
                     <div className="row">
@@ -44,6 +52,7 @@ class ProjectBanner extends Component {
                                 projectDescription={project.description}
                                 projectLink={project.projectLink}
                                 imageSource={project.imageSource}
+                                projectDates={project.dates}
                                 showModal={this.showModal}
                             />)}
                     </div>
@@ -61,6 +70,7 @@ class ProjectBanner extends Component {
                                 projectDescription={project.description}
                                 projectLink={project.projectLink}
                                 imageSource={project.imageSource}
+                                projectDates={project.dates}
                                 showModal={this.showModal}
                             />)}
                     </div>

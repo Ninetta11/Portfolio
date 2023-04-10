@@ -1,4 +1,12 @@
-.thumbnail-title, .thumbnail-subtitle { 
+.thumbnail-image {
+    flex: content;
+    display: block;
+    align-items: center;
+    background-color: #ffff;
+}
+
+.thumbnail-title,
+.thumbnail-subtitle {
     text-align: center;
 }
 

@@ -6,7 +6,7 @@
             "description": "Working within the Identity Management Team as a Digital Developer. Implemented user ability to share personal data with third parties in line with the new Consumer Data Rights Legislation. Upgraded from the Custom to Universal Login in AGL's Auth0 intergration to provide a more seemless and modern login experience for users.",
             "languages": "Identity Management | Auth0 | Azure",
             "projectLink": "https://www.agl.com.au/",
-            "featured": true
+            "dates": "March 2022 - Current"
         },
         {
             "name": "Linktree",
@@ -14,7 +14,7 @@
             "description": "Developed and launched Linktree's new pricing and packaging structure and contributed to both the frontend and backend",
             "languages": "PHP | Typescript | LaunchDarkly",
             "projectLink": "https://linktr.ee/",
-            "featured": false
+            "dates": "September 2021 - March 2022"
         },
         {
             "name": "ANZ",
@@ -22,49 +22,49 @@
             "description": "Worked on the initial concept and development of a marketplace to be integrated into the new ANZ Plus App",
             "languages": "Golang | Auth0 | Google Cloud",
             "projectLink": "https://www.anz.com.au/plus",
-            "featured": false
+            "dates": "April 2021 - July 2021"
         },
         {
             "name": "Propel",
-            "imageSource": "/assets/images/Propel Logo.png",
+            "imageSource": "/assets/images/propel.png",
             "description": "Worked at Propel as a Full Stack Developer and consultant to ANZ, Linktree and AGL",
             "languages": "Full Stack Developer | Consultant",
             "projectLink": "https://www.propelventures.com.au/",
-            "featured": false
+            "dates": "March 2021 - October 2022"
         }
     ],
     "personalProjects": [
         {
-            "name": "Geonbae Korean BBQ Restaurant",
-            "imageSource": "/assets/images/Geonbae.webp",
+            "name": "Geonbae",
+            "imageSource": "/assets/images/geonbae1.webp",
             "description": "From initial concept - to fitout in a new commercial building - to ongoing management and marketing - Geonbae was a personal experiment to test whether conviction and hardwork could turn an idea into a profitable business. The result speaks for itself.",
-            "languages": "Frankston, Victoria",
+            "languages": "Korean BBQ Restaurant - Frankston, Victoria",
             "projectLink": "https://www.geonbae.com.au/",
-            "featured": true
+            "dates": "April 2016 - January 2018"
         },
         {
             "name": "Port Grocer",
-            "imageSource": "/assets/images/linktree.webp",
+            "imageSource": "/assets/images/ocplogo.png",
             "description": "The local community of Port Kembla asked for a community led, zero waste supermarket to be established in the township. A run down warehouse was obtained and transformed into a welcoming community meeting place where locals could purchase all their grocery staples without the usual associated waste.",
-            "languages": "Port Kembla, NSW",
+            "languages": "Our Community Project - Port Kembla, NSW",
             "projectLink": "https://www.ourcommunityproject.org.au/",
-            "featured": false
+            "dates": "March 2020 - August 2020"
         },
         {
-            "name": "Loch & Key Restaurant",
-            "imageSource": "/assets/images/lochnkey.png",
+            "name": "Loch & Key",
+            "imageSource": "/assets/images/lochnkeylogo.png",
             "description": "Revamped an old Victorian building and created a welcoming and intimate dining experience in the scenic village of Loch in South Gippsland.",
-            "languages": "Loch, Victoria",
+            "languages": "Restaurant - Loch, Victoria",
             "projectLink": "https://www.lochnkey.com.au",
-            "featured": false
+            "dates": "April 2022 - February 2023"
         },
         {
             "name": "Camino",
-            "imageSource": "/assets/images/Propel Logo.png",
+            "imageSource": "/assets/images/camino.png",
             "description": "Worked at Propel as a Full Stack Developer and consultant to ANZ, Linktree and AGL",
             "languages": "France - Spain",
             "projectLink": "https://www.propelventures.com.au/",
-            "featured": false
+            "dates": "September 2018 - October 2018"
         }
     ]
 }
