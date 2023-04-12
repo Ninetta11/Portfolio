@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactPlayer from "react-player";
 import { Button, Modal } from 'antd';
 import ProjectThumbnail from '../ProjectThumbnail';
 import projects from '../../data/projects.json';
@@ -15,11 +16,13 @@ class ProjectBanner extends Component {
         modalHref: null,
         modalSubtitle: null,
         modalImage: null,
-        modalDates: null
+        modalDates: null,
+        media: null,
+        mediaText: null
     }
 
-    showModal = (title, description, link, languages, image, dates) => {
-        this.setState({ ...this.state, isModalOpen: true, modalTitle: title, modalDescription: description, modalHref: link, modalSubtitle: languages, modalImage: image, modalDates: dates })
+    showModal = (title, description, link, languages, image, dates, media, mediaText) => {
+        this.setState({ ...this.state, isModalOpen: true, modalTitle: title, modalDescription: description, modalHref: link, modalSubtitle: languages, modalImage: image, modalDates: dates, media: media, mediaText: mediaText })
     };
 
     hideModal = () => {
@@ -34,8 +37,17 @@ class ProjectBanner extends Component {
                     visible={this.state.isModalOpen}
                     onCancel={this.hideModal}
                     footer={[<Button key="cancel" href={this.state.modalHref}>Visit Website</Button>]} >
-                    <img className="modal-image" src={process.env.PUBLIC_URL + this.state.modalImage} alt={this.state.modalTitle} width="200"
-                        height="200"></img>
+                    {this.state.media ?
+                        <div className="media">
+                            <ReactPlayer
+                                url={this.state.media}
+                                alt={this.state.mediaText}
+                            />
+                        </div>
+                        :
+                        <img className="modal-image" src={process.env.PUBLIC_URL + this.state.modalImage} alt={this.state.modalTitle} width="200"
+                            height="200"></img>
+                    }
                     <p className="modal-subtitle">{this.state.modalSubtitle}</p>
                     <p>{this.state.modalDescription}</p>
                     <p className="modal-subtitle">{this.state.modalDates}</p>
@@ -44,15 +56,18 @@ class ProjectBanner extends Component {
                     <div className="row">
                         <h1>As a developer...</h1>
                     </div>
-                    <div id="inner" className="row row-cols-1 row-cols-lg-4">
+                    <div className="row row-cols-xs-1 row-cols-sm-2 row-cols-lg-4">
                         {projects.workProjects.map(project =>
                             <ProjectThumbnail
+                                key={project.name}
                                 projectName={project.name}
                                 projectLanguages={project.languages}
                                 projectDescription={project.description}
                                 projectLink={project.projectLink}
                                 imageSource={project.imageSource}
                                 projectDates={project.dates}
+                                projectMedia={project.media}
+                                projectMediaAlt={project.mediaAlt}
                                 showModal={this.showModal}
                             />)}
                     </div>
@@ -62,7 +77,7 @@ class ProjectBanner extends Component {
                     <div className="row">
                         <h1>As an individual...</h1>
                     </div>
-                    <div id="inner" className="row row-cols-1 row-cols-lg-4">
+                    <div className="row row-cols-xs-1 row-cols-sm-2 row-cols-lg-4">
                         {projects.personalProjects.map(project =>
                             <ProjectThumbnail
                                 projectName={project.name}
@@ -71,6 +86,8 @@ class ProjectBanner extends Component {
                                 projectLink={project.projectLink}
                                 imageSource={project.imageSource}
                                 projectDates={project.dates}
+                                projectMedia={project.media}
+                                projectMediaAlt={project.mediaAlt}
                                 showModal={this.showModal}
                             />)}
                     </div>

@@ -4,8 +4,10 @@
 }
 
 .modal-image {
-    flex: content;
     display: block;
     align-items: center;
     background-color: #ffff;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
 }

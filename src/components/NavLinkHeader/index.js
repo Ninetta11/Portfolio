@@ -8,6 +8,7 @@ function NavLinkHeader({
 }) {
     return (
         <Link
+            key={navText}
             className={classState}
             name={navLink}
             onClick={() => setClass(navLink)}

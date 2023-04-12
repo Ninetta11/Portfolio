@@ -11,6 +11,8 @@ function ProjectThumbnail({
     projectDescription,
     projectLink,
     projectDates,
+    projectMedia,
+    projectMediaAlt,
     showModal,
 }) {
     const [isShown, setIsShown] = useState(false);
@@ -18,9 +20,10 @@ function ProjectThumbnail({
     return (
         <div className="col mb-4">
             <div className="card bg-light h-100"
+                id="logo-card"
                 onMouseEnter={() => setIsShown(true)}
                 onMouseLeave={() => setIsShown(false)}
-                onClick={() => showModal(projectName, projectDescription, projectLink, projectLanguages, imageSource, projectDates)}>
+                onClick={() => showModal(projectName, projectDescription, projectLink, projectLanguages, imageSource, projectDates, projectMedia, projectMediaAlt)}>
                 {!isShown ?
                     <img src={process.env.PUBLIC_URL + imageSource} className="thumbnail-image"
                         alt={projectName}></img>

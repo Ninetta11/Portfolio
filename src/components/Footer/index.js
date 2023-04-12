@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ContactForm from '../ContactForm';
 import NavLinkFooter from '../NavLinkFooter';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
@@ -45,13 +44,11 @@ class Footer extends Component {
     render() {
         return (
             <footer className="position-sticky">
-                <div id="inner" className="row row-cols-1 row-cols-lg-2">
-                <div id="nav-links" className="nav flex-column align-items-center">
-                        <ContactForm />
-                    </div>
+                <div className="row row-cols-1">
                     <ul className="nav flex-column align-items-center">
                         {this.state.personalDetails.map(detail => (
                             <NavLinkFooter
+                                key={detail.text}
                                 text={detail.text}
                                 icon={detail.icon}
                                 href={detail.href}
