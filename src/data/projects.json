@@ -1,0 +1,76 @@
+{
+    "workProjects": [
+        {
+            "name": "AGL",
+            "imageSource": "/assets/images/agl.webp",
+            "description": "Working within the Identity Management Team as a Digital Developer. Implemented user ability to share personal data with third parties in line with the new Consumer Data Rights Legislation. Upgraded from the Custom to Universal Login in AGL's Auth0 intergration to provide a more seemless and modern login experience for users.",
+            "languages": "Identity Management | Auth0 | Azure",
+            "projectLink": "https://www.agl.com.au/",
+            "dates": "March 2022 - Current"
+        },
+        {
+            "name": "Linktree",
+            "imageSource": "/assets/images/linktree.webp",
+            "description": "Developed and launched Linktree's new pricing and packaging structure and contributed to both the frontend and backend.",
+            "languages": "PHP | Typescript | LaunchDarkly",
+            "projectLink": "https://linktr.ee/",
+            "dates": "September 2021 - March 2022"
+        },
+        {
+            "name": "ANZ",
+            "imageSource": "/assets/images/anzplus.svg",
+            "description": "Worked on the initial concept and development of a marketplace to be integrated into the new ANZ Plus App.",
+            "languages": "Golang | Auth0 | Google Cloud",
+            "projectLink": "https://www.anz.com.au/plus",
+            "dates": "April 2021 - July 2021"
+        },
+        {
+            "name": "Propel",
+            "imageSource": "/assets/images/propel.png",
+            "description": "Worked at Propel as a Full Stack Developer and consultant to ANZ, Linktree and AGL.",
+            "languages": "Full Stack Developer | Consultant",
+            "projectLink": "https://www.propelventures.com.au/",
+            "dates": "March 2021 - October 2022"
+        }
+    ],
+    "personalProjects": [
+        {
+            "name": "Geonbae",
+            "imageSource": "/assets/images/geonbae1.webp",
+            "description": "From initial concept - to fitout in a new commercial building - to ongoing management and marketing - Geonbae was a personal experiment to test whether conviction and hardwork could turn an idea into a profitable business. The result speaks for itself.",
+            "languages": "Korean BBQ Restaurant - Frankston, Victoria",
+            "projectLink": "https://www.geonbae.com.au/",
+            "dates": "April 2016 - January 2018",
+            "media": "https://fb.watch/38vARbSV9l/",
+            "media-alt": "Geonbae Official Opening by Local Member Chris Chrewther"
+        },
+        {
+            "name": "Port Grocer",
+            "imageSource": "/assets/images/ocplogo.png",
+            "description": "The local community of Port Kembla asked for a community led, zero waste supermarket to be established in the township. A run down warehouse was obtained and transformed into a welcoming community meeting place where locals could purchase all their grocery staples without the usual associated waste.",
+            "languages": "Our Community Project - Port Kembla, NSW",
+            "projectLink": "https://www.ourcommunityproject.org.au/",
+            "dates": "March 2020 - August 2020",
+            "media": "https://www.youtube.com/embed/zBbpjYoI6s8",
+            "mediaAlt": "Port Grocer WIN TV news segment"
+        },
+        {
+            "name": "Loch & Key",
+            "imageSource": "/assets/images/lochnkeylogo.png",
+            "description": "Revamped an old Victorian building and created a welcoming and intimate dining experience in the scenic village of Loch in South Gippsland.",
+            "languages": "Restaurant - Loch, Victoria",
+            "projectLink": "https://www.lochnkey.com.au",
+            "dates": "April 2022 - February 2023"
+        },
+        {
+            "name": "Camino de Santiago",
+            "imageSource": "/assets/images/camino.png",
+            "description": "Trekked 800km from St Jean Pied de Port, France to Santiago, Spain in 32 days. ",
+            "languages": "France - Spain",
+            "projectLink": "https://www.propelventures.com.au/",
+            "dates": "September 2018 - October 2018",
+            "media": "https://www.youtube.com/watch?v=DDRTuFYvtHg",
+            "mediaAlt": "Camino de Santiago"
+        }
+    ]
+}
