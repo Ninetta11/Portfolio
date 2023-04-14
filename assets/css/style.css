@@ -1,5 +1,4 @@
-
-html{
+html {
     height: 100%;
 }
 
@@ -8,14 +7,14 @@ a {
     font-size: 16px;
 }
 
-#root  {
+#root {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: #3D5467;
 }
 
-h1, 
+h1,
 h3 {
     font-family: 'Raleway', sans-serif;
     padding-bottom: 15px;
@@ -33,7 +32,7 @@ h2 {
     word-spacing: 10px;
 }
 
-h3, 
+h3,
 h4 {
     color: #3D5467;
     font-weight: bold;
@@ -78,5 +77,3 @@ iframe {
 .right {
     float: right;
 }
-
-
