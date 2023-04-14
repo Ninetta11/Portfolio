@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from "react-router-dom";
+import { Button } from 'antd';
 import Fade from 'react-reveal/Fade';
 import './style.css';
 
@@ -8,29 +8,34 @@ function ProjectThumbnail({
     imageSource,
     projectName,
     projectLanguages,
-    setFeatureProject
+    projectDescription,
+    projectLink,
+    projectDates,
+    projectMedia,
+    projectMediaAlt,
+    showModal,
 }) {
     const [isShown, setIsShown] = useState(false);
 
     return (
         <div className="col mb-4">
             <div className="card bg-light h-100"
+                id="logo-card"
                 onMouseEnter={() => setIsShown(true)}
                 onMouseLeave={() => setIsShown(false)}
-                onClick={() => setFeatureProject(projectName)}
-                to="/portfolio">
+                onClick={() => showModal(projectName, projectDescription, projectLink, projectLanguages, imageSource, projectDates, projectMedia, projectMediaAlt)}>
                 {!isShown ?
-                    <img src={process.env.PUBLIC_URL + imageSource} className="card-img-top"
+                    <img src={process.env.PUBLIC_URL + imageSource} className="thumbnail-image"
                         alt={projectName}></img>
                     :
                     <Fade top>
                         <div className="card-overlay-container my-auto">
-                            <h3 class="thumbnail-title">{projectName}</h3>
-                            <p class="thumbnail-subtitle">{projectLanguages}</p>
+                            <h3 className="thumbnail-title">{projectName}</h3>
+                            <p className="thumbnail-subtitle">{projectLanguages}</p>
                             <div className="text-center">
-                                <button className="btn btn-info">
-                                    <Link className="text-white" onClick={() => setFeatureProject(projectName)} to="/portfolio">Learn More</Link>
-                                </button>
+                                <Button type="primary" onClick={() => showModal(projectName, projectDescription, projectLink)}>
+                                    Learn More
+                                </Button>
                             </div>
                         </div>
                     </Fade>

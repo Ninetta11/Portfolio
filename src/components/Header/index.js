@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import NavLinkHeader from '../NavLinkHeader';
 import pages from '../../data/pages.json'
 import './style.css';
+import Scroll from 'react-scroll';
+const scroll = Scroll.animateScroll;
 
 
 function Header() {
@@ -16,6 +18,15 @@ function Header() {
             page.link === name ? page.classState = "nav-link active" : page.classState = "nav-link";
             setState({ pages });
         })
+        if (name === "home") {
+            scroll.scrollToTop()
+        } else if (name === "about") {
+            scroll.scrollTo(700, 0)
+        } else if (name === "portfolio") {
+            scroll.scrollTo(1140, 0)
+        } else {
+            scroll.scrollToBottom()
+        }
     }
 
     return (
@@ -25,9 +36,9 @@ function Header() {
                     className="navbar-brand"
                     id="home-link"
                     name="home"
-                    //onClick={() => setClass(this.name)}
-                    to="/" >Nina Welsh
-                    </Link>
+                    onClick={() => setClass("home")}
+                >Nina Welsh
+                </Link>
                 <button className="navbar-toggler" type="button"
                     data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false"

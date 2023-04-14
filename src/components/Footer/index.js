@@ -5,6 +5,7 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import './style.css';
 
 const personalDetails = [
     {
@@ -28,7 +29,7 @@ const personalDetails = [
         href: "https://www.linkedin.com/in/nina-welsh-b2407398"
     },
     {
-        text: " Github - Ninetta11",
+        text: " Github",
         icon: faGithub,
         href: "https://github.com/Ninetta11"
     }
@@ -43,16 +44,18 @@ class Footer extends Component {
     render() {
         return (
             <footer className="position-sticky">
-                <ul className="nav flex-column align-items-center">
-                    {this.state.personalDetails.map(detail => (
-                        <NavLinkFooter
-                            text={detail.text}
-                            icon={detail.icon}
-                            href={detail.href}
-                        />
-                    ))}
-                    <br></br>
-                </ul>
+                <div className="row row-cols-1">
+                    <ul className="nav flex-column align-items-center">
+                        {this.state.personalDetails.map(detail => (
+                            <NavLinkFooter
+                                key={detail.text}
+                                text={detail.text}
+                                icon={detail.icon}
+                                href={detail.href}
+                            />
+                        ))}
+                    </ul>
+                </div>
             </footer >
         )
     }

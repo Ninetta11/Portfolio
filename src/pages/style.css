@@ -1,5 +1,4 @@
-
-html{
+html {
     height: 100%;
 }
 
@@ -8,14 +7,14 @@ a {
     font-size: 16px;
 }
 
-#root  {
+#root {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: #3D5467;
 }
 
-h1, 
+h1,
 h3 {
     font-family: 'Raleway', sans-serif;
     padding-bottom: 15px;
@@ -33,7 +32,7 @@ h2 {
     word-spacing: 10px;
 }
 
-h3, 
+h3,
 h4 {
     color: #3D5467;
     font-weight: bold;
@@ -46,7 +45,7 @@ iframe {
 }
 
 .bio-container {
-    min-height: 100vh;
+    min-height: 95vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -80,19 +79,14 @@ iframe {
 }
 
 #about {
-    background-color:#EFCB68;
+    background-color: #EFCB68;
     border-style: solid;
     border-color: #3D5467;
-    border-width: 0px 15px;
+    border-width: 0px 45px;
     padding: 50px;
 }
 
-#about-img {
-    margin-left: 35px;
-    margin-bottom: 35px;
-}
-
-#portfolio, 
+#portfolio,
 #achievements {
     margin-left: 45px;
     margin-right: 45px;
@@ -107,5 +101,23 @@ iframe {
     color: #3D5467;
     display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto
+}
+
+@media (min-width : 0px) {
+    #about_text {
+        font-size: 10px;
+    }
+}
+
+@media (min-width : 320px) {
+    #about_text {
+        font-size: 12px;
+    }
+}
+
+@media (min-width : 750px) {
+    #about_text {
+        font-size: 20px;
+    }
 }

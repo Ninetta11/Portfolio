@@ -1,4 +1,12 @@
-.thumbnail-title, .thumbnail-subtitle { 
+.thumbnail-image {
+    flex: content;
+    display: block;
+    align-items: center;
+    background-color: #ffff;
+}
+
+.thumbnail-title,
+.thumbnail-subtitle {
     text-align: center;
 }
 
@@ -8,4 +16,67 @@
 
 .card-overlay-container {
     padding: 10%;
+}
+
+@media (min-width : 0px) {
+    #logo-card {
+        max-height: 200px;
+        max-width: 200px;
+        min-height: 200px;
+        min-width: 200px;
+    }
+}
+
+@media (min-width : 575px) {
+    #logo-card {
+        max-height: 200px;
+        max-width: 200px;
+        min-height: 200px;
+        min-width: 200px;
+    }
+}
+
+@media (min-width : 625px) {
+    #logo-card {
+        max-height: 215px;
+        max-width: 215px;
+        min-height: 215px;
+        min-width: 215px;
+    }
+}
+
+@media (min-width : 785px) {
+    #logo-card {
+        max-height: 300px;
+        max-width: 300px;
+        min-height: 300px;
+        min-width: 300px;
+    }
+}
+
+@media (min-width : 820px) {
+    #logo-card {
+        max-height: 310px;
+        max-width: 310px;
+        min-height: 310px;
+        min-width: 310px;
+    }
+}
+
+@media (min-width : 900px) {
+    #logo-card {
+        max-height: 350px;
+        max-width: 350px;
+        min-height: 350px;
+        min-width: 350px;
+    }
+}
+
+@media (min-width : 992px) {
+    #logo-card {
+        max-height: auto;
+        max-width: auto;
+        min-height: auto;
+        min-width: auto;
+    }
 }
