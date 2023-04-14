@@ -3,7 +3,7 @@
         {
             "name": "AGL",
             "imageSource": "/assets/images/agl.webp",
-            "description": "Working within the Identity Management Team as a Digital Developer. Implemented user ability to share personal data with third parties in line with the new Consumer Data Rights Legislation. Upgraded from the Custom to Universal Login in AGL's Auth0 intergration to provide a more seemless and modern login experience for users.",
+            "description": "Working within the Identity Management Team as a Digital Developer. Implemented user ability to share personal data with third parties in line with the new Consumer Data Rights Legislation. Upgraded from the Custom to Universal Login in AGL's Auth0 integration to provide a more seamless and modern login experience for users.",
             "languages": "Identity Management | Auth0 | Azure",
             "projectLink": "https://www.agl.com.au/",
             "dates": "March 2022 - Current"
