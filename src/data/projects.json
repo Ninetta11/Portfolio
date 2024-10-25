@@ -11,7 +11,7 @@
         {
             "name": "Linktree",
             "imageSource": "/assets/images/linktree.webp",
-            "description": "Developed and launched Linktree's new pricing and packaging structure and contributed to both the frontend and backend.",
+            "description": "Developed and launched Linktree's new pricing and packaging structure. Short term consultant contract through Propel Ventures.",
             "languages": "PHP | Typescript | LaunchDarkly",
             "projectLink": "https://linktr.ee/",
             "dates": "September 2021 - March 2022"
@@ -19,7 +19,7 @@
         {
             "name": "ANZ",
             "imageSource": "/assets/images/anzplus.svg",
-            "description": "Worked on the initial concept and development of a marketplace to be integrated into the new ANZ Plus App.",
+            "description": "Worked on the initial concept and development of a marketplace to be integrated into the new ANZ Plus App. Short term consultant contract through Propel Ventures.",
             "languages": "Golang | Auth0 | Google Cloud",
             "projectLink": "https://www.anz.com.au/plus",
             "dates": "April 2021 - July 2021"
@@ -39,7 +39,7 @@
             "imageSource": "/assets/images/geonbae1.webp",
             "description": "From initial concept - to fitout in a new commercial building - to ongoing management and marketing - Geonbae was a personal experiment to test whether conviction and hardwork could turn an idea into a profitable business. The result speaks for itself.",
             "languages": "Korean BBQ Restaurant - Frankston, Victoria",
-            "projectLink": "https://www.geonbae.com.au/",
+            "projectLink": "https://www.geonbae.au/",
             "dates": "April 2016 - January 2018",
             "media": "https://fb.watch/38vARbSV9l/",
             "media-alt": "Geonbae Official Opening by Local Member Chris Chrewther"
@@ -65,9 +65,9 @@
         {
             "name": "Camino de Santiago",
             "imageSource": "/assets/images/camino.png",
-            "description": "Trekked 800km from St Jean Pied de Port, France to Santiago, Spain in 32 days. ",
+            "description": "Trekked 800km from St Jean Pied de Port, France to Santiago, Spain in 30 days. ",
             "languages": "France - Spain",
-            "projectLink": "https://www.propelventures.com.au/",
+            "projectLink": null,
             "dates": "September 2018 - October 2018",
             "media": "https://www.youtube.com/watch?v=DDRTuFYvtHg",
             "mediaAlt": "Camino de Santiago"
