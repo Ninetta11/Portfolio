@@ -19,14 +19,14 @@ const personalDetails = [
         href: "tel://+61418947922"
     },
     {
-        text: " ninawelsh1@outlook.com",
+        text: " ninabergman2025@gmail.com",
         icon: faEnvelope,
-        href: "mailto:ninawelsh1@outlook.com"
+        href: "mailto:ninabergman2025@gmail.com"
     },
     {
         text: " LinkedIn Profile",
         icon: faLinkedin,
-        href: "https://www.linkedin.com/in/nina-welsh-b2407398"
+        href: "https://www.linkedin.com/in/nina-bergman-b2407398"
     },
     {
         text: " Github",

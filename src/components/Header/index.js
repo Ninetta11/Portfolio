@@ -37,7 +37,7 @@ function Header() {
                     id="home-link"
                     name="home"
                     onClick={() => setClass("home")}
-                >Nina Welsh
+                >Nina Bergman
                 </Link>
                 <button className="navbar-toggler" type="button"
                     data-toggle="collapse" data-target="#navbarNavAltMarkup"
